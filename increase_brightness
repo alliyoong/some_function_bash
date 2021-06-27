@@ -1,0 +1,4 @@
+#!/bin/bash
+file1=`cat /sys/class/backlight/intel_backlight/brightness`
+num=$((file1+2000))
+echo $num > /sys/class/backlight/intel_backlight/brightness
