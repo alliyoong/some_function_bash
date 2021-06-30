@@ -6,3 +6,5 @@ add cron job at /etc/crontab:
 @reboot root chown khanh /sys/class/backlight/intel_backlight/brightness
 
 @reboot root echo 1 > /proc/sys/kernel/sysrq
+
+add decrease and increase_brightness to /usr/local/bin
